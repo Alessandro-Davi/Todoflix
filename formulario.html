@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+ 
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="imagens/icone.png">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estiloformulario.css">
+</head>    
+<body>
+  <!--===============Barra de menu=========-->
+   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href=""><img src="imagens/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="inicio.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="filmes.html">Filmes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="series.html">Séries</a>
+        </li>
+         <li class="nav-item">
+          <a id="iconNav" href="login.html">
+          <img src="Imagens/galinhaavatar.png" alt="Logo" style="width:40px;" class="rounded-pill">
+           </a>
+        </li>   
+      </ul>
+    </div>
+    </div>
+</nav>
+  
+  <!--   =============================== CORPO DA PAGINA =========================== -->
+  
+<main>
+<h1>Escreva um feedback sobre nossa página </h1>
+
+<form
+  action="https://formspree.io/f/xdojjgzy"
+  method="POST">
+
+    <div class="container mt-3">
+    <div class="entradaDados">
+    <h3>Cadastro</h3>
+    <p>Entre ou se cadastre usando seu e-mail e sua senha:</p>
+    </div>
+    <div class="row">
+    <div class="col">
+     <input type="text" class="form-control" placeholder="Digite seu E-mail" name="email">
+    </div>
+    <div class="col">
+     <input type="password" class="form-control" placeholder="Digite sua senha" name="pswd">
+
+
+    </div>
+    </div>
+    </div>
+    <div class="container mt-3">
+    <div class="entradaDados">
+    <h3>Comentário</h3>
+    <p>Descreva o que achou de nosso site:</p>
+    </div>
+    <form action="/action_page.php">
+    <div class="mb-3 mt-3">
+    <div class="entradaDados">
+      
+    </div>
+    <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+
+</div>
+
+</form>
+  
+  <h1>Assine já nossa plataforma de streaming</h1>
+
+  <h6 style="margin-top:30px"> PASSO 1 DE 2 </h6>
+
+  <h2> Escolha o plano ideal para você </h2>
+<br>
+  <div class="imgass">
+  <img src="imagens/Assinatura.png" width:400p>
+  </div>
+  <h6 style="margin-top:30px"> PASSO 2 DE 2 </h6>
+
+  <h2> Escolha o método de pagamento</h2>
+<br>
+
+  <h4>Segurança e tranquilidade.<br>
+  Cancele online com facilidade.</h4>
+  
+<br>
+
+<!--   =============================== CARDS =========================== -->
+
+
+    <div class="distance">
+    <div class="cardunido">
+    <div class="grow">
+    <div class="card" >
+    <div class="card-body">
+    <img src="https://www.dinamize.com.br/wp-content/uploads/2020/10/meio-de-pagamento-digital-icon2.png" width:"">
+    <h5 class="card-text">Cartão de crédito</h5>
+    <a href="#" class="btn btn-primary">Escolher cartão</a>
+    </div>
+    </div>
+    </div>
+
+    <div class="grow">
+    <div class="card" >
+    <div class="card-body">
+    <img src="https://images.tcdn.com.br/files/683593/themes/77/img/settings/barcode-scanner.png?aa05bc1107228f7f530969f63782eee0" width:"">
+    <h5 class="card-text">Boleto bancário</h5>
+    <a href="#" class="btn btn-primary">Escolher boleto</a>
+    </div>
+    </div>
+    </div>
+    </div>
+ </main>
+<!-- ========================================= Footer ================================= -->
+
+    <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-muted">&copy; 2022 Company, Inc</p>
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+    </a>
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="inicio.html" class="nav-link px-2 text-muted">Início</a></li>
+      <li class="nav-item"><a href="filmes.html" class="nav-link px-2 text-muted">Filmes </a></li>
+      <li class="nav-item"><a href="series.html" class="nav-link px-2 text-muted">Séries</a></li>
+      <li class="nav-item"><a href="login.html" class="nav-link px-2 text-muted">Feedback</a></li>
+      <li class="nav-item"><a href="desenvolvedores.html" class="nav-link px-2 text-muted">Desenvolvedores</a></li>
+    </ul>
+    </footer>
+    </div>
+</body>
+</html>
