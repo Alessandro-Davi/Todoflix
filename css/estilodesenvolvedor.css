@@ -1,0 +1,46 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.divtitle{
+  color:white;
+  font-size: arial;
+  margin: 15px;
+  margin-left:30px;
+}
+
+body {
+  background-color:#1C1B1B; 
+}
+
+.nav-link{
+  color:red; 
+}
+
+h1 {
+  
+  text-align:center;
+  color: white;
+  margin-top:20px;
+}
+
+
+.card {
+  margin-left:20px;
+  margin-right:20px;
+}
+
+
+.cardunido {
+    display: flex;
+    text-align:center;
+    justify-content: center;
+}
+.borda{
+    color: #1C1B1B;
+}
+.cartao{
+  background-color:#1C1B1B; 
+  color:white
+}
